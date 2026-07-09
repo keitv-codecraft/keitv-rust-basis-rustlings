@@ -1,3 +1,4 @@
+#[derive(Copy, Clone)]
 enum Direction {
     Up,
     Left,

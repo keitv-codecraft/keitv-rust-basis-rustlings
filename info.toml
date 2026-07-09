@@ -34,3 +34,20 @@ strict_clippy = true
 
 # A multi-line hint to be shown to users on request.
 hint = """Schrijf eerst de verschillende bewegingsrichtingen uit. Probeer daarna te vereenvoudigen."""
+
+[[exercises]]
+name = "vuurbal"
+test = true
+strict_clippy = true
+hint = """Je hebt geen ingewikkelde formules nodig.
+Voorbeeld: Als je met de auto 100 kilometer per uur rijd, dan heb je na een uur 100 kilometer afgelegd.
+Na een half uur (30 minuten) heb je hiervan de helft afgelegd, dus 50 kilometer.
+Na 1 minuut heb je hiervan weer een dertigste afgelegd, dus 50/30 = 5/3 kilometer.
+In zijn algemeenheid leg je na een tijd T in uren dus 100 * T kilometer af.
+"""
+
+[[exercises]]
+name = "collatz"
+test = true
+strict_clippy = true
+hint = """Vind jij het tegenvoorbeeld voor 120 miljoen japanse yen?"""

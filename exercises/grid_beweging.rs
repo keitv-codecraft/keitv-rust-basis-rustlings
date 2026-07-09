@@ -20,6 +20,7 @@
 //   [0, 0, 0],
 // ];
 
+#[derive(Copy, Clone)]
 enum Direction {
     Up,
     Left,

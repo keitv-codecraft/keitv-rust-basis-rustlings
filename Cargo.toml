@@ -2,6 +2,10 @@
 bin = [
   { name = "grid_beweging", path = "exercises/grid_beweging.rs" },
   { name = "grid_beweging_sol", path = "solutions/grid_beweging.rs" },
+  { name = "vuurbal", path = "exercises/vuurbal.rs" },
+  { name = "vuurbal_sol", path = "solutions/vuurbal.rs" },
+  { name = "collatz", path = "exercises/collatz.rs" },
+  { name = "collatz_sol", path = "solutions/collatz.rs" },
 ]
 
 [package]
