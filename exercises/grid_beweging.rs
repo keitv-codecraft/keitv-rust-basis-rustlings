@@ -1,3 +1,25 @@
+// Een speler, aangegeven met 1, bevindt zich op een 3x3 grid.
+// Lege plaatsen in dit grid zijn aangegeven met een 0.
+// De speler kan een stap zetten in een van de vier hoofdrichtingen.
+
+// Bijvoorbeeld, de speler start in het midden en doet een stap naar rechts:
+// 0 0 0       0 0 0
+// 0 1 0  -->  0 0 1
+// 0 0 0       0 0 0
+
+// De speler mag niet uit het speelveld lopen, dus als hij nog een stap
+// naar rechts wil zetten blijft zijn positie gelijk:
+// 0 0 0       0 0 0
+// 0 0 1  -->  0 0 1
+// 0 0 0       0 0 0
+
+// We beschrijven het grid als een array van 3 arrays, ieder met 3 getallen
+// let grid = [
+//   [0, 0, 0],
+//   [0, 1, 0],
+//   [0, 0, 0],
+// ];
+
 enum Direction {
     Up,
     Left,
@@ -6,7 +28,8 @@ enum Direction {
 }
 
 fn move_player(grid: &mut [[i32; 3]; 3], direction: Direction) {
-    // TODO Implementeer de functie
+    // TODO: Implementeer deze functie om de speler 1 stap te laten
+    // zetten in de richting `direction` binnen het grid.
 }
 
 fn main() {}
