@@ -1,5 +1,8 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
-bin = []
+bin = [
+  { name = "grid_beweging", path = "exercises/grid_beweging.rs" },
+  { name = "grid_beweging_sol", path = "solutions/grid_beweging.rs" },
+]
 
 [package]
 name = "exercises"
@@ -8,3 +11,12 @@ edition = "2024"
 publish = false
 
 [dependencies]
+
+
+[lints.clippy]
+correctness = "deny"
+suspicious = "deny"
+complexity = "warn"
+perf = "warn"
+style = "warn"
+pedantic = "deny"
