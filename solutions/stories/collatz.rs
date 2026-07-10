@@ -37,7 +37,7 @@ fn main() {
     // in een keer het aantal stappen voor al deze getallen kunnen
     // bepalen.
     let mut sequence = Vec::new();
-    for mut n in 1..1_000_000 {
+    for mut n in 1..1_000 {
         // Als we het getal al in een eerdere reeks langs hebben zien
         // komen hoeven we niets te berekenen, want het aantal stappen
         // is al bekend.

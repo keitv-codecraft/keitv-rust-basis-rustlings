@@ -6,6 +6,8 @@ bin = [
   { name = "vuurbal_sol", path = "solutions/stories/vuurbal.rs" },
   { name = "collatz", path = "exercises/stories/collatz.rs" },
   { name = "collatz_sol", path = "solutions/stories/collatz.rs" },
+  { name = "frogger", path = "exercises/stories/frogger.rs" },
+  { name = "frogger_sol", path = "solutions/stories/frogger.rs" },
 ]
 
 [package]
@@ -15,6 +17,7 @@ edition = "2024"
 publish = false
 
 [dependencies]
+anyhow = "1.0.103"
 
 
 [lints.clippy]

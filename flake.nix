@@ -40,7 +40,7 @@
           # optional but cleaner than manual export
           env = {
             PKG_CONFIG_PATH = "${pkgs.openssl.dev}/lib/pkgconfig";
-            RUST_BACKTRACE = "full";
+            # RUST_BACKTRACE = "full";
           };
 
           shellHook = ''
