@@ -36,49 +36,49 @@ fn main() {
     // We houden alle getallen bij waar we langs komen, zodat we
     // in een keer het aantal stappen voor al deze getallen kunnen
     // bepalen.
-    for n in 1..10 {
+    let mut sequence = Vec::new();
+    for mut n in 1..1_000_000 {
         // Als we het getal al in een eerdere reeks langs hebben zien
         // komen hoeven we niets te berekenen, want het aantal stappen
         // is al bekend.
         if cache.get(&n).is_some() {
             continue;
         }
-
-        let mut iter = std::iter::successors(Some(n), |m| next_collatz_safe(*m)).peekable();
-        let sequence: Vec<_> = std::iter::from_fn(|| {
-            if iter
-                .peek()
-                .map_or(false, |m| cache.get(m).is_none() && n != 1)
-            {
-                iter.next()
+        let mut step_count = Some(0);
+        while n != 1 {
+            sequence.push(n);
+            if let Some(maybe_count) = cache.get(&n) {
+                step_count = match (step_count, maybe_count) {
+                    // Als we gaandeweg een getal tegen komen dat al
+                    // in de cache zit, dan weten we al hoeveel extra
+                    // stappen we nog moeten zetten om op 1 uit te komen
+                    (Some(inner), Some(count)) => Some(inner + count),
+                    // Als dit aantal stappen onbekend is, dan is het
+                    // aantal stappen voor alle getallen in de reeks onbekend
+                    _ => None,
+                };
+                break;
+            }
+            if let Some(next) = next_collatz_safe(n) {
+                n = next;
+                step_count = step_count.map(|inner| inner + 1);
             } else {
-                iter.next_if(|_| true)
-            }
-        })
-        .collect();
-
-        let last_steps = if let Some(last) = sequence.last() {
-            if *last == 1 {
-                Some(0)
-            } else if let Some(maybe_count) = cache.get(last) {
-                *maybe_count
-            } else {
-                dbg!(last);
-                None
-            }
-        } else {
-            None
-        };
-
-        if let Some(last_steps) = last_steps {
-            for (m, count) in sequence.into_iter().rev().skip(1).zip(last_steps..) {
-                cache.insert(m, Some(count));
-            }
-        } else {
-            for m in sequence {
-                cache.insert(m, None);
+                println!("Overflow: {n}");
+                step_count = None;
+                break;
             }
         }
+        if let Some(step_count) = step_count {
+            for (i, n) in sequence.iter().enumerate() {
+                let step_count = step_count - i;
+                cache.insert(*n, Some(step_count));
+            }
+        } else {
+            for n in &sequence {
+                cache.insert(*n, None);
+            }
+        }
+        sequence.clear();
     }
     let mut c: Vec<_> = cache
         .iter()
