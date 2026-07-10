@@ -41,7 +41,7 @@ fn main() {
         // Als we het getal al in een eerdere reeks langs hebben zien
         // komen hoeven we niets te berekenen, want het aantal stappen
         // is al bekend.
-        if cache.get(&n).is_some() {
+        if cache.contains_key(&n) {
             continue;
         }
         let mut step_count = Some(0);
