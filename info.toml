@@ -2,6 +2,26 @@ format_version = 1
 welcome_message = """Welkom bij de KeiTV Rustlings oefeningen"""
 final_message = """Je hebt alle oefeningen gedaan. Hopelijk was het leerzaam."""
 
+[[exercises]]
+name = "variables1"
+dir = "book_ch3"
+test = false
+strict_clippy = true
+hint = """Volg de instructies in het commentaar van de main functie"""
+
+[[exercises]]
+name = "variables2"
+dir = "book_ch3"
+test = false
+strict_clippy = true
+hint = """Volg de instructies in het commentaar van de main functie"""
+
+[[exercises]]
+name = "variables3"
+dir = "book_ch3"
+test = false
+strict_clippy = true
+hint = """Volg de instructies in het commentaar van de main functie"""
 
 [[exercises]]
 name = "grid_beweging"

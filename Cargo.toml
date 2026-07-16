@@ -1,5 +1,8 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
 bin = [
+  { name = "variables1", path = "exercises/book_ch3/variables1.rs" },
+  { name = "variables2", path = "exercises/book_ch3/variables2.rs" },
+  { name = "variables3", path = "exercises/book_ch3/variables3.rs" },
   { name = "grid_beweging", path = "exercises/stories/grid_beweging.rs" },
   { name = "grid_beweging_sol", path = "solutions/stories/grid_beweging.rs" },
   { name = "vuurbal", path = "exercises/stories/vuurbal.rs" },
@@ -20,6 +23,7 @@ publish = false
 anyhow = "1.0.103"
 itertools = "0.15.0"
 rand = "0.10.2"
+static_assertions = "1.1.0"
 
 
 [lints.clippy]
