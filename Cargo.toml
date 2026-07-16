@@ -1,5 +1,6 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
 bin = [
+  { name = "nim", path = "exercises/stories/nim.rs" },
   { name = "grid_beweging", path = "exercises/stories/grid_beweging.rs" },
   { name = "grid_beweging_sol", path = "solutions/stories/grid_beweging.rs" },
   { name = "vuurbal", path = "exercises/stories/vuurbal.rs" },
@@ -18,6 +19,8 @@ publish = false
 
 [dependencies]
 anyhow = "1.0.103"
+itertools = "0.15.0"
+rand = "0.10.2"
 
 
 [lints.clippy]
