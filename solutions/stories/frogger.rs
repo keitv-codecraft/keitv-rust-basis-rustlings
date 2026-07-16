@@ -8,40 +8,7 @@ use std::{collections::HashSet, convert::TryFrom, fmt::Display};
 
 use anyhow::bail;
 
-fn main() -> anyhow::Result<()> {
-    let parameters = read_line_of_numbers()?;
-    assert_eq!(
-        parameters.len(),
-        3,
-        "We expect three parameters for the game: n, s and m"
-    );
-    if let [n, s, m] = &parameters[0..3] {
-        let board = read_line_of_numbers()?;
-        assert_eq!(
-            board.len(),
-            usize::try_from(*n)?,
-            "The board size doesn't correspond to the parameter n"
-        );
-        let s = usize::try_from(*s)?;
-        let frogger = Frogger::new(board, s, *m)?;
-        let (fate, hop_count) = frogger.play();
-        println!("{fate}");
-        println!("{hop_count}");
-    }
-
-    Ok(())
-}
-
-fn read_line_of_numbers() -> anyhow::Result<Vec<i32>> {
-    let stdin = std::io::stdin();
-    let mut buffer = String::new();
-    stdin.read_line(&mut buffer)?;
-    Ok(buffer
-        .trim()
-        .split(' ')
-        .map(str::parse::<i32>)
-        .collect::<Result<_, _>>()?)
-}
+fn main() {}
 
 struct Frogger {
     board: Vec<i32>,
