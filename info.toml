@@ -38,6 +38,20 @@ strict_clippy = true
 hint = """Volg de instructies in het commentaar van de main functie"""
 
 [[exercises]]
+name = "data_types1"
+dir = "book_ch3"
+test = false
+strict_clippy = true
+hint = """Volg de instructies in het commentaar van de main functie"""
+
+[[exercises]]
+name = "data_types2"
+dir = "book_ch3"
+test = true
+strict_clippy = true
+hint = """Volg de instructies in het commentaar van de main functie"""
+
+[[exercises]]
 name = "grid_beweging"
 dir = "stories"
 test = true
