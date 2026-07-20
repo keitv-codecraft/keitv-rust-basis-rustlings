@@ -1,8 +1,15 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
 bin = [
   { name = "variables1", path = "exercises/book_ch3/variables1.rs" },
+  { name = "variables1_sol", path = "solutions/book_ch3/variables1.rs" },
   { name = "variables2", path = "exercises/book_ch3/variables2.rs" },
+  { name = "variables2_sol", path = "solutions/book_ch3/variables2.rs" },
   { name = "variables3", path = "exercises/book_ch3/variables3.rs" },
+  { name = "variables3_sol", path = "solutions/book_ch3/variables3.rs" },
+  { name = "variables4", path = "exercises/book_ch3/variables4.rs" },
+  { name = "variables4_sol", path = "solutions/book_ch3/variables4.rs" },
+  { name = "variables5", path = "exercises/book_ch3/variables5.rs" },
+  { name = "variables5_sol", path = "solutions/book_ch3/variables5.rs" },
   { name = "grid_beweging", path = "exercises/stories/grid_beweging.rs" },
   { name = "grid_beweging_sol", path = "solutions/stories/grid_beweging.rs" },
   { name = "vuurbal", path = "exercises/stories/vuurbal.rs" },
@@ -16,11 +23,10 @@ bin = [
 [package]
 name = "exercises"
 edition = "2024"
-# Don't publish the exercises on crates.io!
 publish = false
 
 [dependencies]
-anyhow = "1.0.103"
+anyhow = "1.0.104"
 itertools = "0.15.0"
 rand = "0.10.2"
 static_assertions = "1.1.0"

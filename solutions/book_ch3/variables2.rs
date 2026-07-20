@@ -34,7 +34,8 @@ fn main() {
     //       erin. Standaard wordt dit een f64. Maak hier vervolgens
     //       een f32 van op de twee verschillende manieren die we
     //       hiervoor hebben gezien.
-    // let ??? = ???;
+    let _ = 0.123f32;
+    let _: f32 = 1.0e10;
 
     // Laten we nu eens beide typen floats eens printen tot 10 cijfers
     // achter de komma (in Rust schrijven we een punt . volgens de
@@ -63,6 +64,3 @@ fn main() {
     // Omdat je in games nogal eens 'physics' gebruikt om de wereld te simuleren
     // is het belangrijk dat je weet hoe je floating-point gebruikt.
 }
-
-// TODO: verwijder de volgende regel om de exercise op te lossen
-static_assertions::const_assert!(false);

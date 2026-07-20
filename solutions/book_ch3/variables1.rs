@@ -53,9 +53,6 @@ fn main() {
     // Je kunt natuurlijk ook gewoon het resultaat van de expressie eerst opslaan
     // in een variabele en deze vervolgens gebruiken in de interpolatie.
     // TODO: Probeer dat hieronder zelf te doen, zonder terug te kijken 😉
-    // let ???
-    // println! ???
+    let the_answer = 42;
+    println!("The answer to life, the universe and everything is {the_answer}");
 }
-
-// TODO: verwijder de volgende regel om de exercise op te lossen
-static_assertions::const_assert!(false);
