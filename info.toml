@@ -1,85 +1,1021 @@
 format_version = 1
 welcome_message = """Welkom bij de KeiTV Rustlings oefeningen"""
-final_message = """Je hebt alle oefeningen gedaan. Hopelijk was het leerzaam."""
+final_message = """Je hebt alle oefeningen gedaan. Gefeliciteerd! Hopelijk was het leerzaam."""
 
 [[exercises]]
-name = "variables1"
-dir = "book_ch3"
+name = "1_hallo_rust"
+dir = "artikel_1"
 test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+skip_check_unsolved = true
+hint = """Gebruik println!"""
 
 [[exercises]]
-name = "variables2"
-dir = "book_ch3"
+name = "2_hallo_naam"
+dir = "artikel_1"
 test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+skip_check_unsolved = true
+hint = """Regels worden na elkaar uitgevoerd"""
 
 [[exercises]]
-name = "variables3"
-dir = "book_ch3"
+name = "3_eerste_game"
+dir = "artikel_1"
 test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+skip_check_unsolved = true
+hint = """Regels worden na elkaar uitgevoerd"""
 
 [[exercises]]
-name = "variables4"
-dir = "book_ch3"
+name = "4_volgorde"
+dir = "artikel_1"
 test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+skip_check_unsolved = true
+hint = """De nummers blijven bij dezelfde tekst. Ze vormen één geheel."""
 
 [[exercises]]
-name = "variables5"
-dir = "book_ch3"
+name = "5_meer_tekst"
+dir = "artikel_1"
 test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+skip_check_unsolved = true
+hint = """Welke game ken je goed?"""
 
 [[exercises]]
-name = "data_types1"
-dir = "book_ch3"
+name = "6_fout_1"
+dir = "artikel_1"
 test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+hint = """Hoe schrijf je een string literal?"""
 
 [[exercises]]
-name = "data_types2"
-dir = "book_ch3"
-test = true
+name = "7_fout_2"
+dir = "artikel_1"
+test = false
 strict_clippy = true
-hint = """Volg de instructies in het commentaar van de main functie"""
+hint = """Hoe sluit je een statement af?"""
 
 [[exercises]]
-name = "grid_beweging"
-dir = "stories"
-test = true
+name = "8_startscherm"
+dir = "artikel_1"
+test = false
 strict_clippy = true
-hint = """Schrijf eerst de verschillende bewegingsrichtingen uit. Probeer daarna te vereenvoudigen."""
+skip_check_unsolved = true
+hint = """Toon de regels één voor één"""
 
 [[exercises]]
-name = "vuurbal"
-dir = "stories"
-test = true
+name = "9_begin_game"
+dir = "artikel_1"
+test = false
 strict_clippy = true
-hint = """Je hebt geen ingewikkelde formules nodig.
-Voorbeeld: Als je met de auto 100 kilometer per uur rijd, dan heb je na een uur 100 kilometer afgelegd.
-Na een half uur (30 minuten) heb je hiervan de helft afgelegd, dus 50 kilometer.
-Na 1 minuut heb je hiervan weer een dertigste afgelegd, dus 50/30 = 5/3 kilometer.
-In zijn algemeenheid leg je na een tijd T in uren dus 100 * T kilometer af.
-"""
+skip_check_unsolved = true
+hint = """We gaan van het startscherm direct door naar het begin van de game"""
 
 [[exercises]]
-name = "collatz"
-dir = "stories"
-test = true
+name = "1_fout_1"
+dir = "artikel_2"
+test = false
 strict_clippy = true
-hint = """Vind jij het tegenvoorbeeld voor 120 miljoen japanse yen?"""
+hint = """Er wordt ergens een statement niet afgesloten"""
 
 [[exercises]]
-name = "frogger"
-dir = "stories"
-test = true
+name = "2_fout_2"
+dir = "artikel_2"
+test = false
 strict_clippy = true
-hint = """Lees https://open.kattis.com/problems/1dfroggereasy en de code goed voordat je begint"""
+hint = """Waar komt `random_range` vandaan?"""
+
+[[exercises]]
+name = "1_naam_variabele"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik string interpolatie"""
+
+[[exercises]]
+name = "2_levens_variabele"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik string interpolatie"""
+
+[[exercises]]
+name = "3_score"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik = om een variabele te overschrijven"""
+
+[[exercises]]
+name = "4_schade"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik -= om schade van gezondheid af te trekken"""
+
+[[exercises]]
+name = "5_goud"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Je moet dit keer drie waarden printen"""
+
+[[exercises]]
+name = "6_punten"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Los iedere stap op dezelfde manier op als de vorige oefening"""
+
+[[exercises]]
+name = "7_schade_2"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De oplossing lijkt erg op die van de vorige oefening"""
+
+[[exercises]]
+name = "8_totale_schade"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De totale schade is de som van de wapen schade en de kracht bonus"""
+
+[[exercises]]
+name = "9_ervaring"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Dit lijkt erg op een vorige opgave"""
+
+[[exercises]]
+name = "10_maximaal_huidig"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Je hoeft maar één van de twee variabelen aan te passen"""
+
+[[exercises]]
+name = "11_winkel"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Verzin goede namen voor de variabelen"""
+
+[[exercises]]
+name = "12_statistieken"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Kijk goed in welke volgorde je alles doet"""
+
+[[exercises]]
+name = "13_fout_1"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+hint = """`score` is niet muteerbaar"""
+
+[[exercises]]
+name = "14_fout_2"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+hint = """`gezondheid` is niet muteerbaar"""
+
+[[exercises]]
+name = "15_muteerbaar"
+dir = "artikel_3"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Wordt er een waarde gewijzigd?"""
+
+[[exercises]]
+name = "1_functie"
+dir = "artikel_4"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een functie begint met `fn` en heeft een naam."""
+
+[[exercises]]
+name = "2_aanroepen"
+dir = "artikel_4"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Roep de functie aan met haar naam en `()`."""
+
+[[exercises]]
+name = "3_parameters"
+dir = "artikel_4"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Zet `levens: i32` tussen de haakjes."""
+
+[[exercises]]
+name = "4_resultaat"
+dir = "artikel_4"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De laatste regel mag `kracht + wapenschade` zijn."""
+
+[[exercises]]
+name = "1_regel"
+dir = "artikel_5"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `//` voor commentaar op één regel."""
+
+[[exercises]]
+name = "2_bericht"
+dir = "artikel_5"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Commentaar verandert de Rust-code niet."""
+
+[[exercises]]
+name = "3_meer_regels"
+dir = "artikel_5"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `/*` en `*/` voor meerdere regels."""
+
+[[exercises]]
+name = "1_levens"
+dir = "artikel_6"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `if gezondheid <= 0`."""
+
+[[exercises]]
+name = "2_even"
+dir = "artikel_6"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De rest bij delen door 2 staat in `getal % 2`."""
+
+[[exercises]]
+name = "3_rang"
+dir = "artikel_6"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik een `if` als waarde."""
+
+[[exercises]]
+name = "4_game_over"
+dir = "artikel_6"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `else` voor de andere situatie."""
+
+[[exercises]]
+name = "1_lus"
+dir = "artikel_7"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Verhoog de teller en gebruik `break` om te stoppen."""
+
+[[exercises]]
+name = "2_while_lus"
+dir = "artikel_7"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Verander `levens` binnen de lus."""
+
+[[exercises]]
+name = "3_for_lus"
+dir = "artikel_7"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `for nummer in 1..=3`."""
+
+[[exercises]]
+name = "4_aoe_schade"
+dir = "artikel_7"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Herhaal de aftrekking drie keer."""
+
+[[exercises]]
+name = "1_string"
+dir = "artikel_8"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `String::from` en `println!`."""
+
+[[exercises]]
+name = "2_move"
+dir = "artikel_8"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De tweede variabele is nu de eigenaar."""
+
+[[exercises]]
+name = "3_clone"
+dir = "artikel_8"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `bericht.clone()`."""
+
+[[exercises]]
+name = "4_functie"
+dir = "artikel_8"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Roep `toon_wapen(wapen)` aan."""
+
+[[exercises]]
+name = "5_naam"
+dir = "artikel_8"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Geef een kopie door met `clone()`."""
+
+[[exercises]]
+name = "1_lenen"
+dir = "artikel_9"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `&naam` bij de aanroep."""
+
+[[exercises]]
+name = "2_tekst"
+dir = "artikel_9"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een String kan als `&str` worden geleend."""
+
+[[exercises]]
+name = "3_schade"
+dir = "artikel_9"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `*gezondheid -= schade`."""
+
+[[exercises]]
+name = "4_aanpassen"
+dir = "artikel_9"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik de method `push`."""
+
+[[exercises]]
+name = "5_twee_keer"
+dir = "artikel_9"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een immutable reference kan vaker worden geleend."""
+
+[[exercises]]
+name = "1_struct"
+dir = "artikel_10"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een struct beschrijft velden met een naam en type."""
+
+[[exercises]]
+name = "2_velden"
+dir = "artikel_10"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik de puntnotatie: `speler.naam`."""
+
+[[exercises]]
+name = "3_veranderen"
+dir = "artikel_10"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De struct is al `mut`; verander het veld met `-=`."""
+
+[[exercises]]
+name = "4_lenen"
+dir = "artikel_10"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Leen de struct en lees daarna het veld."""
+
+[[exercises]]
+name = "5_vijand"
+dir = "artikel_10"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Vul de twee velden van de vijand in."""
+
+[[exercises]]
+name = "1_method"
+dir = "artikel_11"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een method staat binnen een `impl`-blok."""
+
+[[exercises]]
+name = "2_naam"
+dir = "artikel_11"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `format!` met `self.naam`."""
+
+[[exercises]]
+name = "3_method_schade"
+dir = "artikel_11"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `self.gezondheid -= schade`."""
+
+[[exercises]]
+name = "4_levend"
+dir = "artikel_11"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Vergelijk gezondheid met nul."""
+
+[[exercises]]
+name = "5_genezen"
+dir = "artikel_11"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `+=` op het veld."""
+
+[[exercises]]
+name = "1_wapen"
+dir = "artikel_12"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Maak een waarde met `Wapen::Zwaard`."""
+
+[[exercises]]
+name = "2_actie"
+dir = "artikel_12"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een `match` moet iedere variant behandelen."""
+
+[[exercises]]
+name = "3_match"
+dir = "artikel_12"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """`Spelen` is actief; `GameOver` niet."""
+
+[[exercises]]
+name = "4_enum_schade"
+dir = "artikel_12"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Geef de waarde uit `Schade::Normaal(waarde)` terug."""
+
+[[exercises]]
+name = "5_status"
+dir = "artikel_12"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Geef voor alle drie varianten een tekst terug."""
+
+[[exercises]]
+name = "1_trait"
+dir = "artikel_13"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een trait bevat de method-handtekening."""
+
+[[exercises]]
+name = "2_speler"
+dir = "artikel_13"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Implementeer de trait voor `Speler`."""
+
+[[exercises]]
+name = "3_vijand"
+dir = "artikel_13"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik dezelfde gezondheidscontrole als bij de speler."""
+
+[[exercises]]
+name = "4_trait_levend"
+dir = "artikel_13"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Deze eenvoudige speler geeft altijd `true` terug."""
+
+[[exercises]]
+name = "1_debug"
+dir = "artikel_14"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `{:?}` of `{waarde:?}`."""
+
+[[exercises]]
+name = "2_clone"
+dir = "artikel_14"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `eerste.clone()`."""
+
+[[exercises]]
+name = "3_gelijk"
+dir = "artikel_14"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """`PartialEq` maakt `==` en `!=` mogelijk."""
+
+[[exercises]]
+name = "4_default"
+dir = "artikel_14"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `Speler::default()`."""
+
+[[exercises]]
+name = "1_closure"
+dir = "artikel_16"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Zet de berekening na de parameter."""
+
+[[exercises]]
+name = "2_parameters"
+dir = "artikel_16"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `eerste + tweede`."""
+
+[[exercises]]
+name = "3_bonus"
+dir = "artikel_16"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een closure kan `bonus` uit de omgeving lezen."""
+
+[[exercises]]
+name = "4_aanval"
+dir = "artikel_16"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Verander het veld via de mutable reference."""
+
+[[exercises]]
+name = "1_test"
+dir = "artikel_17"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik assert_eq!(verdubbel(5), 10)."""
+
+[[exercises]]
+name = "2_schade_test"
+dir = "artikel_17"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De gezondheid na de aanval is 75."""
+
+[[exercises]]
+name = "3_assert"
+dir = "artikel_17"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Test zowel een levende als een verslagen speler."""
+
+[[exercises]]
+name = "4_meerdere_tests"
+dir = "artikel_17"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Iedere testfunctie heeft haar eigen assert_eq!."""
+
+[[exercises]]
+name = "1_opbouwen"
+dir = "artikel_18"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik push voor één teken."""
+
+[[exercises]]
+name = "2_lenen"
+dir = "artikel_18"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik de method len."""
+
+[[exercises]]
+name = "3_eerste_woord"
+dir = "artikel_18"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik split_whitespace en next."""
+
+[[exercises]]
+name = "4_contains"
+dir = "artikel_18"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik tekst.contains(...)."""
+
+[[exercises]]
+name = "1_module"
+dir = "artikel_19"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `pub` en roep aan met `game::start()`."""
+
+[[exercises]]
+name = "2_pub"
+dir = "artikel_19"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Maak de functie zichtbaar buiten de module."""
+
+[[exercises]]
+name = "3_struct"
+dir = "artikel_19"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Zowel de struct als het veld moeten publiek zijn."""
+
+[[exercises]]
+name = "4_game"
+dir = "artikel_19"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De functie geeft een string literal terug."""
+
+[[exercises]]
+name = "1_some"
+dir = "artikel_20"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `Some(String::from(...))`."""
+
+[[exercises]]
+name = "2_none"
+dir = "artikel_20"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik if en else met Some en None."""
+
+[[exercises]]
+name = "3_wapen"
+dir = "artikel_20"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Behandel beide varianten met match."""
+
+[[exercises]]
+name = "4_zoeken"
+dir = "artikel_20"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Geef None terug als de lus niets vindt."""
+
+[[exercises]]
+name = "1_ok"
+dir = "artikel_21"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een succesvolle Result gebruikt Ok."""
+
+[[exercises]]
+name = "2_err"
+dir = "artikel_21"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik Err voor de ongeldige gezondheid."""
+
+[[exercises]]
+name = "3_result_match"
+dir = "artikel_21"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Behandel Ok en Err afzonderlijk."""
+
+[[exercises]]
+name = "4_delen"
+dir = "artikel_21"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Controleer deler vóór je deelt."""
+
+[[exercises]]
+name = "1_iter"
+dir = "artikel_22"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `for naam in namen.iter()`."""
+
+[[exercises]]
+name = "2_map"
+dir = "artikel_22"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De closure geeft score plus 5 terug."""
+
+[[exercises]]
+name = "3_filter"
+dir = "artikel_22"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Houd waarden met `**score >= 50` over."""
+
+[[exercises]]
+name = "4_collect"
+dir = "artikel_22"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik map en collect samen."""
+
+[[exercises]]
+name = "1_generiek"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik een typeparameter `T`."""
+
+[[exercises]]
+name = "2_kist"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Schrijf `struct Kist<T>`."""
+
+[[exercises]]
+name = "3_display"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik de bound `T: Display`."""
+
+[[exercises]]
+name = "4_eerste"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """De generieke functie werkt ook met tekst."""
+
+[[exercises]]
+name = "1_inventory"
+dir = "artikel_24"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `insert` met sleutel en aantal."""
+
+[[exercises]]
+name = "2_score"
+dir = "artikel_24"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `get` en let op de reference."""
+
+[[exercises]]
+name = "3_entry"
+dir = "artikel_24"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `entry(...).or_insert(0)`."""
+
+[[exercises]]
+name = "4_tellen"
+dir = "artikel_24"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `get_mut` om de score te veranderen."""
+
+[[exercises]]
+name = "1_bestand"
+dir = "artikel_25"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `fs::write` en geef fouten door met `?`."""
+
+[[exercises]]
+name = "1_structuur"
+dir = "artikel_26"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Denk aan een aparte module voor gevechten."""
+
+[[exercises]]
+name = "1_ontwerp"
+dir = "artikel_27"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Begin met één speler en één duidelijke eigenschap."""
+
+[[exercises]]
+name = "1_rpg"
+dir = "artikel_28"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een bericht met println is genoeg voor deze eerste stap."""
+
+[[exercises]]
+name = "1_uitrusting"
+dir = "artikel_29"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik push om een item toe te voegen."""
+
+[[exercises]]
+name = "1_wereld"
+dir = "artikel_30"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een locatie heeft een naam."""
+
+[[exercises]]
+name = "1_spel_lus"
+dir = "artikel_31"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik een for-lus voor drie beurten."""
+
+[[exercises]]
+name = "1_gevecht"
+dir = "artikel_32"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik max(0) na het aftrekken."""
+
+[[exercises]]
+name = "1_beloning"
+dir = "artikel_33"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een overwinning kan goud toevoegen."""
+
+[[exercises]]
+name = "1_npc"
+dir = "artikel_34"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Laat de NPC een korte tekst zeggen."""
+
+[[exercises]]
+name = "1_consolideren"
+dir = "artikel_35"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Kies één spelregel die een test verdient."""
+
+[[exercises]]
+name = "1_refactor"
+dir = "artikel_36"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Een refactoring verandert de structuur, niet het gedrag."""
+
+[[exercises]]
+name = "1_eindproject"
+dir = "artikel_37"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Geef je eigen RPG een naam."""
+
+[[exercises]]
+name = "1_array"
+dir = "artikel_15"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Indexen beginnen bij nul."""
+
+[[exercises]]
+name = "2_vec"
+dir = "artikel_15"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `vec![...]`."""
+
+[[exercises]]
+name = "3_push"
+dir = "artikel_15"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `scores.push(waarde)`."""
+
+[[exercises]]
+name = "4_for"
+dir = "artikel_15"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Loop met `for score in &scores`."""
+
+[[exercises]]
+name = "5_aoe"
+dir = "artikel_15"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik een mutable reference naar iedere vijand."""
