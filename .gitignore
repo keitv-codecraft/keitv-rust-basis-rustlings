@@ -4,3 +4,4 @@ target/
 !.vscode/extensions.json
 .rustlings-state.txt
 /.direnv
+/oefening.txt

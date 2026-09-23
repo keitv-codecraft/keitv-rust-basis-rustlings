@@ -813,8 +813,40 @@ skip_check_unsolved = true
 hint = """Gebruik map en collect samen."""
 
 [[exercises]]
-name = "1_generiek"
+name = "1_find"
 dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `find` met een voorwaarde."""
+
+[[exercises]]
+name = "2_any"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `any` om één passende waarde te zoeken."""
+
+[[exercises]]
+name = "3_sum"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `sum` op de iterator."""
+
+[[exercises]]
+name = "4_iter_mut"
+dir = "artikel_23"
+test = false
+strict_clippy = true
+skip_check_unsolved = true
+hint = """Gebruik `&mut` om ieder getal te veranderen."""
+
+[[exercises]]
+name = "1_generiek"
+dir = "artikel_24"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -822,7 +854,7 @@ hint = """Gebruik een typeparameter `T`."""
 
 [[exercises]]
 name = "2_kist"
-dir = "artikel_23"
+dir = "artikel_24"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -830,7 +862,7 @@ hint = """Schrijf `struct Kist<T>`."""
 
 [[exercises]]
 name = "3_display"
-dir = "artikel_23"
+dir = "artikel_24"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -838,7 +870,7 @@ hint = """Gebruik de bound `T: Display`."""
 
 [[exercises]]
 name = "4_eerste"
-dir = "artikel_23"
+dir = "artikel_24"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -846,7 +878,7 @@ hint = """De generieke functie werkt ook met tekst."""
 
 [[exercises]]
 name = "1_inventory"
-dir = "artikel_24"
+dir = "artikel_25"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -854,7 +886,7 @@ hint = """Gebruik `insert` met sleutel en aantal."""
 
 [[exercises]]
 name = "2_score"
-dir = "artikel_24"
+dir = "artikel_25"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -862,7 +894,7 @@ hint = """Gebruik `get` en let op de reference."""
 
 [[exercises]]
 name = "3_entry"
-dir = "artikel_24"
+dir = "artikel_25"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -870,7 +902,7 @@ hint = """Gebruik `entry(...).or_insert(0)`."""
 
 [[exercises]]
 name = "4_tellen"
-dir = "artikel_24"
+dir = "artikel_25"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -878,7 +910,7 @@ hint = """Gebruik `get_mut` om de score te veranderen."""
 
 [[exercises]]
 name = "1_bestand"
-dir = "artikel_25"
+dir = "artikel_26"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -886,7 +918,7 @@ hint = """Gebruik `fs::write` en geef fouten door met `?`."""
 
 [[exercises]]
 name = "1_structuur"
-dir = "artikel_26"
+dir = "artikel_27"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -894,7 +926,7 @@ hint = """Denk aan een aparte module voor gevechten."""
 
 [[exercises]]
 name = "1_ontwerp"
-dir = "artikel_27"
+dir = "artikel_28"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -902,7 +934,7 @@ hint = """Begin met één speler en één duidelijke eigenschap."""
 
 [[exercises]]
 name = "1_rpg"
-dir = "artikel_28"
+dir = "artikel_29"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -910,7 +942,7 @@ hint = """Een bericht met println is genoeg voor deze eerste stap."""
 
 [[exercises]]
 name = "1_uitrusting"
-dir = "artikel_29"
+dir = "artikel_30"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -918,7 +950,7 @@ hint = """Gebruik push om een item toe te voegen."""
 
 [[exercises]]
 name = "1_wereld"
-dir = "artikel_30"
+dir = "artikel_31"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -926,7 +958,7 @@ hint = """Een locatie heeft een naam."""
 
 [[exercises]]
 name = "1_spel_lus"
-dir = "artikel_31"
+dir = "artikel_32"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -934,7 +966,7 @@ hint = """Gebruik een for-lus voor drie beurten."""
 
 [[exercises]]
 name = "1_gevecht"
-dir = "artikel_32"
+dir = "artikel_33"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -942,7 +974,7 @@ hint = """Gebruik max(0) na het aftrekken."""
 
 [[exercises]]
 name = "1_beloning"
-dir = "artikel_33"
+dir = "artikel_34"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -950,7 +982,7 @@ hint = """Een overwinning kan goud toevoegen."""
 
 [[exercises]]
 name = "1_npc"
-dir = "artikel_34"
+dir = "artikel_35"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -958,7 +990,7 @@ hint = """Laat de NPC een korte tekst zeggen."""
 
 [[exercises]]
 name = "1_consolideren"
-dir = "artikel_35"
+dir = "artikel_36"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -966,7 +998,7 @@ hint = """Kies één spelregel die een test verdient."""
 
 [[exercises]]
 name = "1_refactor"
-dir = "artikel_36"
+dir = "artikel_37"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
@@ -974,7 +1006,7 @@ hint = """Een refactoring verandert de structuur, niet het gedrag."""
 
 [[exercises]]
 name = "1_eindproject"
-dir = "artikel_37"
+dir = "artikel_38"
 test = false
 strict_clippy = true
 skip_check_unsolved = true
